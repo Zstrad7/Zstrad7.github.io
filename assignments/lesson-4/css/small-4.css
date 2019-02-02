@@ -30,19 +30,18 @@ header, main, footer {
     max-width: 2000px;
 }
 header {
-    text-align: center;
+    margin:10px auto;
     font-size: 48px;
     background-color: blue;
+    text-align: center;
 }
 
 header img, .headings {
     display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
 }
-header img {
-    width: 500px;
-    height: auto;
-    float: unset;
-}
+
 
 footer {
     text-align: center;
