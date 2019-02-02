@@ -35,7 +35,9 @@ header {
     background-color: blue;
 }
 
-
+header img, .headings {
+    display: inline-block;
+}
 header img {
     width: 500px;
     height: auto;
