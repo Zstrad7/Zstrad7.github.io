@@ -25,7 +25,7 @@ h3 {
 }
 
 header, main, footer {
-    margin: 1.25rem auto;
+    margin: 1rem auto;
     padding: .5rem;
     max-width: 2000px;
 }
@@ -42,7 +42,7 @@ h1 header {
 }
 
 header img {
-    width: 100px;
+    width: 500px;
     height: auto;
     float: unset;
 }
