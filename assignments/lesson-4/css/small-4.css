@@ -56,12 +56,12 @@ nav {
     background-color: green;
 }
 
-nav li {
+nav li a {
     text-align: center;
     color: black;
 }
 
-nav li em {
+nav li a em {
     background-color: lawngreen;
 }
 
