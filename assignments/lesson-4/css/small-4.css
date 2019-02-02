@@ -31,14 +31,10 @@ header, main, footer {
 }
 header {
     text-align: center;
-    font-size: 48 px
+    font-size: 48 px;
     background-color: blue;
 }
 
-h1 header {
-    font-size: 48px;
-
-}
 
 header img {
     width: 500px;
