@@ -41,7 +41,11 @@ header img, .headings {
     vertical-align: middle;
     margin: 10px;
 }
-
+header img {
+    width: 500px;
+    height: auto;
+    float: unset;
+}
 
 footer {
     text-align: center;
