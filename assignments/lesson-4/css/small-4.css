@@ -1,0 +1,63 @@
+* {margin: 50px; box-sizing: border-box;}
+
+body {
+    font-size: 16px;
+    font: arial;
+    color: black;
+}
+
+h1 {
+    font-size: 32px;
+    Color: black;
+
+}
+
+h2 {
+    font-size: 29px;
+    color: black;
+
+}
+
+h3 {
+    font-size: 26px;
+    Color: black;
+
+}
+
+.header {
+    text-align: center;
+    background-color: 3300FF;
+    color: white;
+
+}
+
+h1 header {
+    font-size: 48px;
+    font: "Comic Sans MS";
+}
+
+header img {
+    width: 500px;
+    height: auto;
+    float: unset;
+}
+
+.footer {
+    text-align: center;
+    background-color: 3300FF;
+    font-size: 26px;
+
+}
+
+.nav {
+    background-color: 009900;
+}
+
+.nav li {
+    text-align: center;
+    color: black;
+}
+
+a:current {
+    backgroung-color: 00FF00;
+}
