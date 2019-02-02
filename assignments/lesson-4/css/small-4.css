@@ -47,18 +47,18 @@ header img {
     float: unset;
 }
 
-.footer {
+footer {
     text-align: center;
     background-color: blue;
     font-size: 26px;
 
 }
 
-.nav {
+nav {
     background-color: green;
 }
 
-.nav li {
+nav li {
     text-align: center;
     color: black;
 }
