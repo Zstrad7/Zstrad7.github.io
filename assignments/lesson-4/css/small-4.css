@@ -31,7 +31,7 @@ header, main, footer {
 }
 .header {
     text-align: center;
-    background-color: 3300FF;
+    background-color: blue;
     color: white;
 
 }
@@ -49,13 +49,13 @@ header img {
 
 .footer {
     text-align: center;
-    background-color: 3300FF;
+    background-color: blue;
     font-size: 26px;
 
 }
 
 .nav {
-    background-color: 009900;
+    background-color: green;
 }
 
 .nav li {
