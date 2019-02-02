@@ -31,13 +31,13 @@ header, main, footer {
 }
 header {
     text-align: center;
-    color: white;
     background-color: blue;
 }
 
 h1 header {
     font-size: 48px;
     font: "Comic Sans MS";
+    color: white;
 }
 
 header img {
