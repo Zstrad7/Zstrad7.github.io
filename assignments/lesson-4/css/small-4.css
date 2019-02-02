@@ -36,11 +36,7 @@ header {
     text-align: center;
 }
 
-header img, .headings {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 10px;
-}
+
 header img {
     width: 500px;
     height: auto;
