@@ -92,6 +92,7 @@ nav li {
         display: inline;
         text-align: left;
         color: black;
+        margin: 0;
 }
 
 nav li a em {
