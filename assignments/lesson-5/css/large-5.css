@@ -95,11 +95,9 @@ nav li {
 nav li a em {
     color: black;
 }
-@media (mid-width: 751px){
-    .daybyday img {
-        width: 1000px;
-        height: auto;
-        float: left;
-        margin: 0;
-    }
+.daybyday img {
+     width: 1000px;
+     height: auto;
+     float: left;
+    margin: 0;
 }

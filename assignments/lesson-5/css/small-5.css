@@ -96,9 +96,6 @@ nav li a em {
     color: black;
 }
 
-@media (max-width 750) {
-
 .daybyday img {
     display: none;
-    }
-}
+ }
