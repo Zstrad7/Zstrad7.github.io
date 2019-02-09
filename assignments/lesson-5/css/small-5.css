@@ -43,6 +43,12 @@ header img {
     float: left;
 }
 
+.headings {
+    clear:left;
+} 
+
+
+
 footer {
     text-align: center;
     background-color: blue;
