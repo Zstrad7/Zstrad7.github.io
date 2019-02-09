@@ -88,7 +88,7 @@ nav ul {
 
 nav li {
     display: inline;
-    text-align: center;
+    text-align: left;
     color: black;
 }
 
@@ -100,6 +100,6 @@ nav li a em {
         width: 1000px;
         height: auto;
         float: left;
-        padding: 1.5rem;
+        margin: 0;
     }
 }
