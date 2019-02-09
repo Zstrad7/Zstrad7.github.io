@@ -85,18 +85,17 @@ nav {
 nav ul {
     list-style-type: none;
 }
-@media (mid-width: 721px){
+
 nav li {
         display: inline;
         text-align: left;
         color: black;
-    }
 }
 
 nav li a em {
     color: black;
 }
-@media (mid-width: 721px){
+@media (mid-width: 751px){
     .daybyday img {
         width: 1000px;
         height: auto;
