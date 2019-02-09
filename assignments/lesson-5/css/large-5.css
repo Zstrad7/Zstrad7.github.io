@@ -93,6 +93,7 @@ nav li {
         text-align: left;
         color: black;
         margin: 0;
+        padding: 1rem;
 }
 
 nav li a em {
