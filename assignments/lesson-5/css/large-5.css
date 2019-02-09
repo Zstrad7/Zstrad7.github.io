@@ -1,0 +1,104 @@
+* {margin: 50px; box-sizing: border-box;}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Verdana, Helvetica;
+    color: black;
+}
+
+h1 {
+    font-size: 32px;
+    Color: black;
+
+}
+
+h2 {
+    font-size: 29px;
+    color: black;
+
+}
+
+h3 {
+    font-size: 26px;
+    Color: black;
+
+}
+
+header, main, footer {
+    margin: 1rem auto;
+    padding: 0px;
+    max-width: 2000px;
+}
+header {
+    margin:10px auto;
+    font-size: 48px;
+    background-color: blue;
+    text-align: center;
+}
+
+
+header img {
+    width: 500px;
+    height: auto;
+    float: left;
+}
+
+.headings {
+    clear:left;
+} 
+main {max-width: 820px;margin:0 auto;}
+
+main img {
+    width: 1000px;
+    height: auto
+}
+
+.herodiv {margin: 10px auto;position: relative;}
+
+.stats {
+	position: absolute;
+	top: 25px;
+	right: 50px;
+	background: radial-gradient(#eee, #4567aa;);
+	border: 1px solid #000;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #fff;
+}
+
+article img {
+    width: 1000px;
+    height:auto;
+    padding: 1.5rem;
+}
+
+footer {
+    text-align: center;
+    background-color: blue;
+    font-size: 26px;
+
+}
+
+nav {
+    background-color: green;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    color: black;
+}
+
+nav li a em {
+    color: black;
+}
+@media (mid-width: 721px){
+    .daybyday img {
+        width: 1000px;
+        height: auto;
+        float: left;
+    }
+}

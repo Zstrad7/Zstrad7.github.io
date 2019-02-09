@@ -46,8 +46,31 @@ header img {
 .headings {
     clear:left;
 } 
+main {max-width: 820px;margin:0 auto;}
+
+main img {
+    width: 700px;
+    height: auto
+}
+
+.herodiv {margin: 10px auto;position: relative;}
+
+.stats {
+	position: absolute;
+	top: 25px;
+	right: 50px;
+	background: radial-gradient(#eee, #4567aa;);
+	border: 1px solid #000;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #fff;
+}
 
 
+article img {
+    width: 700px;
+    height:auto;
+    padding: 1.5rem;
+}
 
 footer {
     text-align: center;
@@ -60,11 +83,22 @@ nav {
     background-color: green;
 }
 
-nav li a {
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
     text-align: center;
     color: black;
 }
 
 nav li a em {
     color: black;
+}
+
+@media (max-width 720) {
+
+.daybyday img {
+    display: none;
+    }
 }
