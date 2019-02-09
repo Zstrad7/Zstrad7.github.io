@@ -24,7 +24,7 @@ h3 {
 
 }
 
-header, main, footer {
+header, footer {
     margin: 1rem auto;
     padding: 0px;
     max-width: 2000px;
