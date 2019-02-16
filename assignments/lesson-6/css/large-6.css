@@ -1,0 +1,24 @@
+@media only screen and (min-width:64em){
+
+    nav button {display: none;}
+
+    nav ul.hide {display: block;}
+
+    nav ul {margin-left: 2%;}
+
+    nav ul li {
+        float: left;
+    }  
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.5);
+        padding: .6rem 1rem;
+    }
+
+    div .daybyday img {
+        display: block;
+    }
+
+
+}

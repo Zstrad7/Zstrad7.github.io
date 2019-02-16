@@ -6,8 +6,8 @@
         <title>Preston Idaho</title>
         <meta name="description" content="The weather for Preston Idaho">
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" media="(max-width: 750px)" href="css/small-5.css">
-        <link rel="stylesheet" media="(min-width: 751px)" href="css/large-5.css">
+        <link rel="stylesheet" media="(max-width: 750px)" href="">
+        <link rel="stylesheet" media="(min-width: 751px)" href="">
     </head>
     <body>
         <header>
@@ -20,9 +20,10 @@
          </header>
 
          <nav>
-             <ul>
+             <button onclick="toggleMenu()">&#9776;</button>
+             <ul id="direction" class="hide">
                 <li><a href="#">Home</a></li>
-                <li><a href="#"><em>Preston</em></a></li>
+                <li class="active"><a href="#">Preston</a></li>
                 <li><a href="#">Soda-Springs</a></li>
                 <li><a href="#">Fish-Haven</a></li>
                 <li><a href="#">Storm-Center</a></li>
@@ -32,7 +33,15 @@
          <main>
             <h1>Preston Idaho</h1>
                 <div class="herodiv">
-                    <img src="images/clouds-eco-environment-9198.jpg">
+                    <figure class="herophoto">
+                            <img src="images/cit230_image_franklinOriginal.jpeg" alt= "nice sky" sizes="100vw"
+                                srcset="images/cit230_image_very_small.jpg 400w,
+                                        images/cit230_image_small.jpg 800w,
+                                        images/cit230_image_large.jpg 1200w
+                                        "
+                                 >
+                    </figure>
+                    <img src="">
                     <section class="stats">
                         <h3>Weather Summary</h3>
                         <p>Currently: <span id="value1">Sunny</span></p>
@@ -47,13 +56,14 @@
              <img src="images/5-day-forecast.png" alt="5 day forecase">
          </div>
         <article>
-            <img src="images/guide-idaho-map-108942.jpg">
+            <img src="images/guide-idaho-map-cropped.jpg" alt="fun picture for article">
             <h2>This Wonderful place</h2>
             <h4>by Robert Flicko</h4>
             <p>Have you ever wondered what it is like to live in Idaho? Well I am here to tell you that it is the greatest. I recently sat down and reflected on the time I have lived here in Idaho, and I have to say the years I have lived here have possibly been the best years of my life. Idaho is a wonderful place for all sorts of people. For those who love hiking there are plenty of hiking trails everywhere. Those who love rafting or kayaking there are plenty of places for that as well. You name it Idaho has it, so don't be afraid to try it out. 
             </p> 
         </article>
         <section>
+            <img src="images/preston_map.png" alt="map of preston">
             <address>
                 <P>Weather Fun Times</P>
                 <p>77 N fake dr, Preston, ID 83263</p>
@@ -64,9 +74,10 @@
             </address>
         </section>
         <footer>
-            <p>&copy;2019 All Rights Reserved| Weather Fun Times| Current Date Placeholder</p>
+            <p>&copy;2019 All Rights Reserved| Weather Fun Times| <span id="currentdate"></span><br></p>
         </footer>
-
+        <script src="javascript/hamburger.js"></script>
+        <script src="javascript/currentdate.js"></script>
     </body>
 
 </html>
