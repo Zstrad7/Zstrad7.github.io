@@ -1,3 +1,5 @@
+
+
 * {margin: 50px; box-sizing: border-box;}
 
 body {
@@ -84,6 +86,10 @@ nav {
     background-color: green;
 }
 
+nav button {
+    display: none;
+}
+
 nav ul {
     list-style-type: none;
 }
@@ -105,3 +111,5 @@ nav li a em {
      float: left;
     margin: 0;
 }
+
+

@@ -1,34 +1,130 @@
-@media only screen and (min-width:64em){
+@media only screen and (min-width: 751px){
+* {box-sizing: border-box;}
 
-    header,
-    nav, 
-    main,
-    footer {
-        max-width: 90em;
-    }
-    nav button {display: none;}
+body {
+    font-size: 16px;
+    font-family: Arial, Verdana, Helvetica;
+    color: black;
+}
 
-    nav ul.hide {display: block;}
+h1 {
+    font-size: 32px;
+    Color: black;
 
-    nav ul {margin-left: 2%;}
+}
 
-    nav ul li {
-        float: left;
-    }  
+h2 {
+    font-size: 29px;
+    color: black;
 
-    nav ul li a {
-        border: none;
-        border-right: 1px solid rgba(0, 0, 0, 0.5);
-        padding: .6rem 1rem;
-    }
+}
 
-    div .daybyday img {
-        display: block;
-    }
+h3 {
+    font-size: 26px;
+    Color: black;
 
-    address {
-        float: left;
-    }
+}
 
+header, footer {
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 100vmax;
+}
+header {
+    margin:0;
+    font-size: 48px;
+    background-color: blue;
+    text-align: center;
+}
+
+
+header img {
+    width: 300px;
+    height: auto;
+    float: left;
+}
+
+main {max-width: 100vmax;margin:0 auto;}
+
+main img {
+    margin-left: 0;
+    width: 100vmax;
+    height: auto;
+    float: left;
+}
+
+.herodiv {margin: 10px auto;position: relative;}
+
+.stats {
+	position: absolute;
+	top: 25px;
+	right: 80vmax;
+	background: radial-gradient(#eee, #4567aa);
+	border: 1px solid #000;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #fff;
+}
+
+article {
+    clear: left;
+}
+
+article img {
+    clear:left;
+    width: 300px;
+    height:auto;
+    padding: 1.5rem;
+    float: right;
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: blue;
+    font-size: 26px;
+
+}
+
+nav {
+    background-color: green;
+    top: -25;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+        display: inline;
+        text-align: left;
+        color: black;
+        margin: 0;
+        padding: 0;
+}
+
+nav li a em {
+    color: black;
+}
+.daybyday img {
+     width: 1000px;
+     height: auto;
+     float: left;
+    margin: 0;
+}
+
+button {
+    display: none;
+}
+
+h6 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+li.active {
+    background-color: aqua;
+}
 
 }
