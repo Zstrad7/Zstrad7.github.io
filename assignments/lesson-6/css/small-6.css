@@ -1,4 +1,4 @@
-* {margin: 50px; box-sizing: border-box;}
+* {box-sizing: border-box;}
 
 body {
     font-size: 16px;
@@ -38,7 +38,7 @@ header {
 
 
 header img {
-    width: 500px;
+    width: 300px;
     height: auto;
     float: left;
 }

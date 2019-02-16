@@ -1,5 +1,11 @@
 @media only screen and (min-width:64em){
 
+    header,
+    nav, 
+    main,
+    footer {
+        max-width: 90em;
+    }
     nav button {display: none;}
 
     nav ul.hide {display: block;}
