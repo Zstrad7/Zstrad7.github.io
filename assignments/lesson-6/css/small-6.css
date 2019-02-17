@@ -1,89 +1,47 @@
+/*DEFAULT AND SMALL SIZES HERE*/
+
+/*GENERAL STYLES*/
+
 * {box-sizing: border-box;}
 
 body {
     font-size: 16px;
     font-family: Arial, Verdana, Helvetica;
-    color: black;
 }
 
 h1 {
     font-size: 35px;
     Color: black;
-
 }
 
 h2 {
     font-size: 29px;
-    color: black;
-
+    color:black;
+    padding: 0 0 10px 0;
+    margin: 0;
 }
-
 h3 {
     font-size: 26px;
-    Color: black;
-
 }
 
-header, footer {
-    margin: 1rem auto;
-    padding: 0px;
-    max-width: 100vmax;
-}
+/*HEADER*/
+
 header {
-    margin:10px auto;
-    font-size: 60px;
     background-color: blue;
     text-align: center;
+    font-size: 30px;
 }
 
-
 header img {
-    width: 300px;
-    height: auto;
-    float: left;
+    max-width: 100px;
+    vertical-align: middle;
 }
 
 .headings {
-    clear:left;
-} 
-main {max-width: 100vmax;margin:0 auto;}
-
-main img {
-    margin-left: 0;
-    width: 100vmax;
-    height: auto;
-    float: left;
+    display: inline-block;
 }
 
-.herodiv {margin: 10px auto;position: relative;}
-
-.stats {
-	position: absolute;
-	top: 25px;
-	right:350px;
-	background: radial-gradient(#eee, #4567aa);
-	border: 1px solid #000;
-	padding: 0;
-	box-shadow: 0 0 30px #fff;
-}
-
-.daybyday img {
-    display: none;
-}
-
-article img {
-    width: 300px;
-    height:auto;
-    padding: 1.5rem;
-    float: right;
-}
-
-footer {
-    text-align: center;
-    background-color: blue;
-    font-size: 26px;
-
-}
+/*NAVIGATION*/
 
 nav {
     background-color: green;
@@ -100,33 +58,116 @@ nav button {
 
 nav ul {
     list-style-type: none;
+    padding: 0;
 }
 
 nav li {
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
     margin: 0;
     color: black;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
     
 }
 
 nav ul li a {
-    display: flex;
-    flex-flow: row wrap;
-    padding: .8rem 2%;
-    text-decoration: none;
+    padding: 10px;
     color: black;
-    border-top: 1px solid rgba(0, 0, 0, 0.5);
-    justify-content: center;
+    text-decoration: none;
 }
 
 li.active {
     background-color: aqua;
 }
 
+li:hover {
+    background-color: lightgreen;
+}
+
 nav ul.hide {display: none;}
 
-h6 {
-    padding-bottom: 0;
+/*MAIN SECTION*/
+
+main h1 {
+    color: black;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.herodiv {position: relative;}
+
+.stats {
+	position: absolute;
+	top: 25px;
+	left: 15px;
+	background: radial-gradient(#eee, #4567aa);
+	border: 1px solid #000;
+	padding: 5px;
+	box-shadow: 0 0 30px #fff;
+}
+
+.stats h3 {
+    margin: 0;
+}
+
+.stats p {
+    margin: 0;
+}
+
+/*FORECAST*/
+.daybyday img {
+    display: none;
+}
+
+/*ARTICLE*/
+
+article {
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+article img {
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+article h2 {
+    color: black;
+    font-size: 1rem;
+    text-align: left;
+}
+
+article h4 {
+    margin: 0;
+}
+
+/*CONTACT INFO*/
+
+section#contactinfo {
+    text-align: center;
+}
+
+#contactinfo img {
+    max-width: 200px;
+    height: auto;
+}
+
+/*FOOTER*/
+
+footer {
+    text-align: center;
+    background-color: blue;
+    color:black;
+    font-size: 15px;
+    padding: 20px;
+
+}
+
+h6{
     margin-bottom: 0;
 }
