@@ -22,10 +22,13 @@
 
     /*FORECAST*/
 
-    .daybyday img{
-        display: inline-block;
-        
-        
+    div.daybyday table {
+        display: block;
+        position: center;
+    }
+
+    table th {
+        background-color: blue;
     }
 
     /*MAIN*/
@@ -41,7 +44,7 @@
     }
     
     article {
-    padding-bottom: 150px; 
+        padding-bottom: 150px; 
     }
 
     /*ADDRESS SECTION*/

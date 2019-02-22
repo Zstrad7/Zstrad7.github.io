@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name= "viewpoint" content="width=device-width,initial-scale=1, maximum-scale=1">
+        <title>Preston Idaho</title>
+        <meta name="description" content="The weather for Preston Idaho">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small-7.css">
+        <link rel="stylesheet" href="css/large-7.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/weather-site-logo1.png" alt="A picture of the sun and clouds">
+            <section class="headings">
+                     <p>Weather Fun Times</p>
+                    
+            </section>
+            <h6>We tell you the weather, so you can enjoy your fun times</h6>
+         </header>
+
+         <nav>
+             <button onclick="toggleMenu()">&#9776;</button>
+             <ul id="direction" class="hide">
+                <li><a href="#">|Home|     </a></li>
+                <li class="active"><a href="#">     |Preston|</a></li>
+                <li><a href="#">          |Soda-Springs|     </a></li>
+                <li><a href="#">     |Fish-Haven|     </a></li>
+                <li><a href="#">     |Storm-Center|     </a></li>
+                <li><a href="#">     |Gallery|</a></li>
+             </ul>
+         </nav>
+         <main>
+            <h1>Preston Idaho</h1>
+                <div class="herodiv">
+                    <picture class="herophoto">
+                            <img src="images/cit230_image_franklinOriginal.jpeg" alt= "nice sky" sizes="85vw"
+                                srcset="images/cit230_image_very_small.jpg 400w,
+                                        images/cit230_image_small.jpg 800w,
+                                        images/cit230_image_large.jpg 1200w
+                                        "
+                                 >
+                    </picture>
+                    <section class="stats">
+                        <h3>Weather Summary</h3>
+                        <p>Currently: <span id="value1">Sunny</span></p>
+                        <p>High: 67&#8457;</p>
+                        <p>Wind Chill: 65&#8457;</p>
+                        <p>Humidity: 47%</p>
+                        <p>Wind Speed: 5 mph</p>
+                    </section>
+                </div>
+         </main>
+         <div class="daybyday">
+             <table id="table1">
+                 <tr>
+                     <th>Wed</th>
+                     <th>Thur</th>
+                     <th>Fri</th>
+                     <th>Sat</th>
+                     <th>Sun</th>
+                 </tr>
+                 <tr>
+                     <td> <img src="images/sun.png" alt="A picture of the sun"></td>
+                     <td> <img src="images/sun.png" alt="A picture of the sun"></td>
+                     <td> <img src="images/sun.png" alt="A picture of the sun"></td>
+                     <td> <img src="images/sun.png" alt="A picture of the sun"></td>
+                     <td> <img src="images/sun.png" alt="A picture of the sun"></td>
+                 </tr>
+                 <tr>
+                     <td>65 &#176;</td>
+                     <td>63 &#176;</td>
+                     <td>60 &#176;</td>
+                     <td>54 &#176;</td>
+                     <td>65 &#176;</td>
+                 </tr>
+             </table>
+         </div>
+        <article>
+            <img src="images/guide-idaho-map-cropped.jpg" alt="fun picture for article">
+            <h2>This Wonderful place</h2>
+            <h4>by Robert Flicko</h4>
+            <p>Have you ever wondered what it is like to live in Idaho? Well I am here to tell you that it is the greatest. I recently sat down and reflected on the time I have lived here in Idaho, and I have to say the years I have lived here have possibly been the best years of my life. Idaho is a wonderful place for all sorts of people. For those who love hiking there are plenty of hiking trails everywhere. Those who love rafting or kayaking there are plenty of places for that as well. You name it Idaho has it, so don't be afraid to try it out. 
+            </p> 
+        </article>
+        <section id= "contactinfo">
+            <img src="images/preston_map.png" alt="map of preston">
+            <address>
+                <P>Weather Fun Times</P>
+                <p>77 N fake dr, Preston, ID 83263</p>
+            </address>
+            <address>
+                <P>(123)-456-7890</P>
+                <p>weatherfun@fake.com</p>
+            </address>
+        </section>
+        <footer>
+            <p>&copy;2019 All Rights Reserved| Weather Fun Times| <span id="currentdate"></span><br></p>
+        </footer>
+        <script src="javascript/hamburger.js"></script>
+        <script src="javascript/currentdate.js"></script>
+    </body>
+
+</html>

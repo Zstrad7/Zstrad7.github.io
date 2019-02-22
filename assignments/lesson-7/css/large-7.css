@@ -1,0 +1,73 @@
+@media only screen and (min-width: 850px){
+
+    /*NAVIGATION*/
+
+    nav ul.hide {
+        display: block;
+        margin: 0;
+    }
+
+    nav ul#direction {
+        margin: 0;
+        vertical-align: middle;
+    }
+    nav ul li {
+        display: inline-block;
+        border: none;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    /*FORECAST*/
+    div.daybyday table {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+     }
+        
+    
+    table th {
+        background-color: blue;
+        border: 1px solid black;
+    }
+
+    table td {
+        text-align: center;
+        border: 1px solid black;
+    }
+    
+
+    /*MAIN*/
+
+    main, article, footer, section#contactinfo {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    article img {
+        float:right;
+        margin: 10px;
+    }
+    
+    article {
+        padding-bottom: 150px; 
+    }
+
+    /*ADDRESS SECTION*/
+
+    section#contactinfo {
+        position: relative;
+        text-align: left;
+        padding: 50px;
+    }
+
+    section#contactinfo img {
+        position: absolute;
+        top: 20px;
+        left: 350px;
+    }
+
+ 
+}

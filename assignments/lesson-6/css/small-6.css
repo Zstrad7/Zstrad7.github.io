@@ -97,7 +97,10 @@ img {
     width: 100%;
 }
 
-.herodiv {position: relative;}
+.herodiv {
+    position: relative;
+    
+}
 
 .stats {
 	position: absolute;
@@ -118,7 +121,15 @@ img {
 }
 
 /*FORECAST*/
-.daybyday img {
+table {
+    display: none;
+}
+
+th {
+    diplay: none;
+}
+
+td {
     display: none;
 }
 
