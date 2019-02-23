@@ -1,6 +1,6 @@
-@media only screen and (min-width: 850px){
+@media only screen and (min-width: 950px){
 
-    /*NAVIGATION*/
+    /*navigation*/
 
     nav ul.hide {
         display: block;
@@ -12,7 +12,8 @@
         vertical-align: middle;
     }
     nav ul li {
-        display: inline-block;
+        display: inline-flex;
+        padding: 3px;
         border: none;
     }
 
@@ -20,7 +21,7 @@
         display: none;
     }
 
-    /*FORECAST*/
+    /*forecast*/
     div.daybyday table {
         display: flex;
         justify-content: center;
@@ -39,7 +40,7 @@
     }
     
 
-    /*MAIN*/
+    /*main*/
 
     main, article, footer, section#contactinfo {
         max-width: 800px;
@@ -55,7 +56,17 @@
         padding-bottom: 150px; 
     }
 
-    /*ADDRESS SECTION*/
+    /*gallery*/
+    div.weathergallery {
+        grid-template-columns: repeat(3, 1fr);
+        max-width:2300px;
+        margin: auto;
+    }
+    .weathergallery figure:hover {
+        box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+    }
+
+    /*address section*/
 
     section#contactinfo {
         position: relative;

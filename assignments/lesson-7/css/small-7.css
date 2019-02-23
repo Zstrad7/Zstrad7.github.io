@@ -1,6 +1,6 @@
 /*DEFAULT AND SMALL SIZES HERE*/
 
-/*GENERAL STYLES*/
+/*general styles*/
 
 * {box-sizing: border-box;}
 
@@ -24,7 +24,7 @@ h3 {
     font-size: 26px;
 }
 
-/*HEADER*/
+/*header*/
 
 header {
     background-color: blue;
@@ -41,7 +41,7 @@ header img {
     display: inline-block;
 }
 
-/*NAVIGATION*/
+/*navigation*/
 
 nav {
     background-color: green;
@@ -86,7 +86,7 @@ li:hover {
 
 nav ul.hide {display: none;}
 
-/*MAIN SECTION*/
+/*main section*/
 
 main h1 {
     color: black;
@@ -120,12 +120,12 @@ img {
     margin: 0;
 }
 
-/*FORECAST*/
+/*forecast*/
 .daybyday table{
     display: none;
 }
 
-/*ARTICLE*/
+/*article*/
 
 article {
     background-color: lightgreen;
@@ -149,7 +149,26 @@ article h4 {
     margin: 0;
 }
 
-/*CONTACT INFO*/
+/*gallery*/
+div.weathergallery {
+    padding: 0.2%;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+}
+.weathergallery figure img {
+    width: 100%;
+    height: auto;
+}
+
+.weathergallery figure figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2%;
+}
+
+
+/*contact info*/
 
 section#contactinfo {
     text-align: center;
@@ -160,7 +179,7 @@ section#contactinfo {
     height: auto;
 }
 
-/*FOOTER*/
+/*footer*/
 
 footer {
     text-align: center;

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name= "viewpoint" content="width=device-width,initial-scale=1, maximum-scale=1">
+        <title>Gallery</title>
+        <meta name="description" content="The weather for Preston Idaho">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small-7.css">
+        <link rel="stylesheet" href= "css/medium.css">
+        <link rel="stylesheet" href="css/large-7.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/weather-site-logo1.png" alt="A picture of the sun and clouds">
+            <section class="headings">
+                     <p>Weather Fun Times</p>
+                    
+            </section>
+            <h6>We tell you the weather, so you can enjoy your fun times</h6>
+         </header>
+
+         <nav>
+             <button onclick="toggleMenu()">&#9776;</button>
+             <ul id="direction" class="hide">
+                <li><a href="#">|Home|     </a></li>
+                <li><a href="preston-7.html">     |Preston|</a></li>
+                <li><a href="#">          |Soda-Springs|     </a></li>
+                <li><a href="#">     |Fish-Haven|     </a></li>
+                <li><a href="#">     |Storm-Center|     </a></li>
+                <li class="active"><a href="#">     |Gallery|</a></li>
+             </ul>
+         </nav>
+         <mian>
+             <h2>Gallery</h2>
+             <div class="weathergallery">
+                 <figure>
+                    <img src="images/rain.jpg" alt="rain">
+                    <figcaption>Rainy Day</figcaption>
+                 </figure>
+
+                 <figure>
+                    <img src="images/windy.jpg" alt="windy">
+                    <figcaption>A windy Day</figcaption>
+                 </figure>
+
+                 <figure>
+                     <img src="images/tornado.jpg" alt="tornado">
+                     <figcaption>A Tornado</figcaption>
+                 </figure>
+
+                 <figure>
+                     <img src="images/lightning.jpg" alt="lightning">
+                     <figcaption>Natures Electricity</figcaption>
+                 </figure>
+
+                 <figure>
+                     <img src="images/clouds.jpg" alt="clouds">
+                     <figcaption>Some Happy Little Clouds</figcaption>
+                 </figure>
+
+                 <figure>
+                     <img src="images/sunny.jpg" alt="Sunny Sky">
+                     <figcaption>A Sunny Day</figcaption>
+                 </figure>
+             </div>
+         </mian>
+         <section id= "contactinfo">
+            <img src="images/preston_map.png" alt="map of preston">
+            <address>
+                <P>Weather Fun Times</P>
+                <p>77 N fake dr, Preston, ID 83263</p>
+            </address>
+            <address>
+                <P>(123)-456-7890</P>
+                <p>weatherfun@fake.com</p>
+            </address>
+        </section>
+        <footer>
+            <p>&copy;2019 All Rights Reserved| Weather Fun Times| <span id="currentdate"></span><br></p>
+        </footer>
+        <script src="javascript/hamburger.js"></script>
+        <script src="javascript/currentdate.js"></script>
+    </body>
+
+</html>
