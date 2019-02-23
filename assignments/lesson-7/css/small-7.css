@@ -11,12 +11,10 @@ body {
 
 h1 {
     font-size: 35px;
-    Color: black;
 }
 
 h2 {
     font-size: 29px;
-    color:black;
     padding: 0 0 10px 0;
     margin: 0;
 }
@@ -30,16 +28,22 @@ header {
     background-color: blue;
     text-align: center;
     font-size: 30px;
-}
-
-header img {
-    max-width: 100px;
-    vertical-align: middle;
+    color: white;
 }
 
 .headings {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
 }
+
+header img {
+    max-height: 100px;
+    width: auto;
+    margin: 0;
+    margin-right: 0;
+    vertical-align: middle;
+}
+
 
 /*navigation*/
 
@@ -184,7 +188,7 @@ section#contactinfo {
 footer {
     text-align: center;
     background-color: blue;
-    color:black;
+    color: white;
     font-size: 15px;
     padding: 20px;
 
