@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name= "viewpoint" content="width=device-width,initial-scale=1, maximum-scale=1">
+        <title>Storm Center</title>
+        <meta name="description" content="Report weird weather or storms">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small-8.css">
+        <link rel="stylesheet" href= "css/medium.css">
+        <link rel="stylesheet" href="css/large-8.css">
+    </head>
+    <body>
+        <header>
+            <section class="headings">
+                    <img src="images/weather-site-logo1.png" alt="A picture of the sun and clouds">
+                     <h1>Weather Fun Times</h1>  
+            </section>
+                <h2>We tell you the weather, so you can enjoy your fun times</h2> 
+         </header>
+
+         <nav>
+             <button onclick="toggleMenu()">&#9776;</button>
+             <ul id="direction" class="hide">
+                <li><a href="#">|Home|     </a></li>
+                <li><a href="preston-8.html">     |Preston|</a></li>
+                <li><a href="#">          |Soda-Springs|     </a></li>
+                <li><a href="#">     |Fish-Haven|     </a></li>
+                <li class="active"><a href="#">     |Storm-Center|     </a></li>
+                <li><a href="gallery-8.html">     |Gallery|</a></li>
+             </ul>
+         </nav>
+         <main>
+             <h2>Storm Center</h2>
+             <div class="stormreport">
+                 <form method="get" action="thanks.html">
+                    <section id="personal-info">
+                        <h3>Personal Information</h3>
+                        <div id="sub1">
+                            <label>Full Name:<br><input type="text" name="fullname" placeholder="Full Name Here" minlength="4" maxlength="25" size="20" required></label><br>
+                            <label>Email:<br><input type="email" name="enail" placeholder="email@here.com"></label><br>
+                            <label>Phone Number:<br><input type="tel" name="phone" required></label><br>
+                            <label>Zip Code:<br><input type="number" name="zip" required></label>
+                        </div>
+                    </section>
+                    <section id="storm">
+                         <h3>Storm Information</h3>
+                        <div id="sub2">
+                            <label>Storm Date:<br><input type="date" name="date"></label><br>
+                            <div id="weatherlist">
+                            <label >Storm Type:<br> </label>
+                            <input name="stormtype" list="stormlist">
+
+                             <datalist id="stormlist">
+                                    <option value= "Flash Flood">
+                                    <option value= "Hail">
+                                    <option value= "Hurricane">
+                                    <option value= "Thunderstorm">
+                                    <option value= "Tornado">
+                             </datalist>
+                            </div>
+                            <br>
+                            <label for="rating">Storm Severity (1 to 10):</label><br>
+                            <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)"
+                            onchange="adjustRating(this.value)">
+                            <span id="ratingvalue">5</span><br>
+                            <label> Storm Region:<br> <select name="region">
+                                <option value="Choose" disabled selected>Choose Region</option>
+                                    <option value="Preston">Preston</option>
+                                    <option value="Soda Springs">Soda Springs</option>
+                                    <option value="Fish Haven">Fish Haven</option>
+                                </select>
+                            </label><br>
+                            <label> Are you in danger?</label><br>
+                            <input type="radio" name="danger" value="yes" checked>Yes<br>
+                            <input type="radio" name="danger" value="yes" checked>Maybe<br>
+                            <input type="radio" name="danger" value="yes" checked>No
+                        </div>
+                    </section>
+                    <section id="moreinfo">
+                        <h3>Additional Information</h3>
+                        <label> Additional Information:<br>
+                            <textarea name="additionalinfo"></textarea>
+                        </label>
+                    </section>
+                    <br>
+                    <input type="submit" value="Submit" class="submitButton">
+                 </form>
+             </div>
+         </main>
+
+         <section id= "contactinfo">
+            <h3>Contact Us</h3>
+           <img src="images/preston_map.png" alt="map of preston">
+           <address>
+               <P>Weather Fun Times</P>
+               <p>77 N fake dr, Preston, ID 83263</p>
+           </address>
+           <address>
+               <P>(123)-456-7890</P>
+               <p>weatherfun@fake.com</p>
+           </address>
+       </section>
+       <footer>
+           <p>&copy;2019 All Rights Reserved| Weather Fun Times| <span id="currentdate"></span><br></p>
+       </footer>
+       <script src="javascript/hamburger.js"></script>
+       <script src="javascript/currentdate.js"></script>
+       <script src="javascript/rangeslider.js"></script>
+   </body>
+
+</html>
