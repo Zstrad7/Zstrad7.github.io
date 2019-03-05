@@ -208,8 +208,6 @@ h6{
     padding:30px;
     margin:40px;
     background: lightgray;
-    border-radius: 15px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 }
 
 .stormreport .sub1 {
@@ -227,7 +225,6 @@ h6{
 .stormreport h3 {
     padding: 35px;
     border: 3px solid black;
-    border-radius: 6px;
     background: blue;
     color: white;
     text-align: center;
