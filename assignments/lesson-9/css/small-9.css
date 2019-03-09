@@ -1,0 +1,316 @@
+/*DEFAULT AND SMALL SIZES HERE*/
+
+/*general styles*/
+
+* {box-sizing: border-box;}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Verdana, Helvetica;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 29px;
+    padding: 0 0 10px 0;
+    margin: 0;
+}
+h3 {
+    font-size: 26px;
+}
+
+/*header*/
+
+header {
+    background-color: blue;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.headings {
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    max-height: 100px;
+    width: auto;
+    margin: 0;
+    margin-right: 0;
+    vertical-align: middle;
+}
+
+
+/*navigation*/
+
+nav {
+    background-color: green;
+    text-align: center;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    color: black;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    
+}
+
+nav ul li a {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+li.active {
+    background-color: aqua;
+}
+
+li:hover {
+    background-color: lightgreen;
+}
+
+nav ul.hide {display: none;}
+
+/*main section*/
+
+main h2 {
+    color: black;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.herodiv {
+    position: relative;
+    
+}
+
+.stats {
+	position: absolute;
+	top: 25px;
+	left: 15px;
+	background: radial-gradient(#eee, #4567aa);
+	border: 1px solid #000;
+	padding: 5px;
+	box-shadow: 0 0 30px #fff;
+}
+
+.stats h3 {
+    margin: 0;
+}
+
+.stats p {
+    margin: 0;
+}
+
+/*forecast*/
+.daybyday table{
+    display: none;
+}
+
+/*article*/
+
+article {
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+article img {
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+article h2 {
+    color: black;
+    font-size: 1rem;
+    text-align: left;
+}
+
+article h4 {
+    margin: 0;
+}
+
+/*gallery*/
+div.weathergallery {
+    padding: 0.2%;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+}
+.weathergallery figure img {
+    width: 100%;
+    height: auto;
+}
+
+.weathergallery figure figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2%;
+}
+
+
+/*contact info*/
+
+section#contactinfo {
+    text-align: center;
+}
+
+#contactinfo img {
+    max-width: 200px;
+    height: auto;
+}
+
+/*footer*/
+
+footer {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+
+}
+
+h6{
+    margin-bottom: 0;
+}
+
+/*storm report*/
+
+.stormreport {
+    
+    max-width:500px;
+    padding:30px;
+    margin:40px;
+    background: lightgray;
+}
+
+.stormreport .sub1 {
+    padding: 35px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.stormreport .sub2 {
+    padding: 35px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.stormreport h3 {
+    padding: 35px;
+    border: 3px solid black;
+    background: blue;
+    color: white;
+    text-align: center;
+}
+
+.stormreport section {
+    text-align: center;
+}
+
+ .stormreport input[type="text"],
+ .stormreport input[type="date"],
+ .stormreport input[type="email"],
+ .stormreport input[type="number"],
+ .stormreport input[type="tel"],
+ .stormreport select {
+     display:block;
+     width:100%;
+     padding: 8px;
+     border-radius:6px;
+     border:2px solid black;
+ }
+
+.stormtype {
+    display:block;
+    width:100%;
+    padding: 8px;
+    border-radius:6px;
+    border:2px solid black;    
+ }
+
+ .stormreport input {
+    display:block;
+    width:100%;
+    padding: 8px;
+    border-radius:6px;
+    border:2px solid black; 
+
+ }
+
+ .stormreport textarea {
+    display:block;
+    box-sizing: border-box;
+    padding:8px;
+    border-radius: 6px;
+    border: 3px solid black;
+    width:100%;
+    height: 12rem;
+}
+
+.stormreport input[type="submit"]{
+    background: blue;
+    color: white;
+}
+
+article#towns{
+    padding: .5rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns:auto;
+    padding: .5rem;
+    text-align: center;
+    background:none;
+}
+
+article#towns h5 {
+    font-size: 25px;
+}
+
+article#towns h6 {
+    font-size:15px;
+    margin-bottom: 0;
+}
+
+.townfacts {
+    border:3px solid black;
+    border-radius: 6px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+    margin-bottom: 0;
+}
+
+.townfacts img {
+    margin-bottom: 0;
+    max-width: 300px;
+    height: 225px;
+}
+
+article#towns h2{
+    display: none;
+}
