@@ -10,7 +10,6 @@ request.onload=function() {
     showData(townInfo);
 }
 function showData(jsonObj) {
-	var check =1;
     town=jsonObj['towns'];
 for(var i = 0; i<town.length; i++) {
     if(town[i].name == "Preston" || town[i].name == "Soda Springs" || town[i].name == "Fish Haven")
