@@ -10,34 +10,23 @@ request.onload=function() {
     showData(townInfo);
 }
 function showData(jsonObj) {
+	var check =1;
     town=jsonObj['towns'];
-for (townlist = 0; townlist<town.length; townlist++) {
-    if(town[townlist].name == 'Preston')
-    makeTownData(town[townlist]);
-}
-for (townlist = 0; townlist<town.length; townlist++) {
-    if(town[townlist].name == 'Soda Springs')
-    makeTownData(town[townlist]);
-}
-for (townlist = 0; townlist<town.length; townlist++) {
-    if(town[townlist].name == 'Fish Haven')
-    makeTownData(town[townlist]);
-}
-}
-function makeTownData(jsonObj) {
-    var town=jsonObj;
-    var myarticle = document.createElement('article');
+for(var i = 0; i<town.length; i++) {
+    if(town[i].name == "Preston" || town[i].name == "Soda Springs" || town[i].name == "Fish Haven")
+	{
+    var myarticle = document.createElement('div');
     var myH5 = document.createElement('h5');
     var myH6 = document.createElement('h6');
     var mypara1 = document.createElement('p');
     var mypara2 = document.createElement('p');
     var mypara3 = document.createElement('p');
     var myPicture = document.createElement('img');
-    myH5.textContent= town.name;
-    myH6.textContent= town.motto;
-    mypara1.textContent= 'Year Founded:'+ town.yearFounded;
-    mypara2.textContent= 'Population:'+ town.currentPopulation;
-    mypara3.textContent= 'Average Rainfall:'+ town.averageRainfall;
+    myH5.textContent= town[i].name;
+    myH6.textContent= town[i].motto;
+    mypara1.textContent= 'Year Founded:'+ town[i].yearFounded;
+    mypara2.textContent= 'Population:'+ town[i].currentPopulation;
+    mypara3.textContent= 'Average Rainfall:'+ town[i].averageRainfall + " inches";
 
     switch (myH5.textContent) {
         case "Preston":
@@ -58,4 +47,6 @@ function makeTownData(jsonObj) {
     myarticle.appendChild(myPicture);
     myarticle.className = "townfacts";
     article.appendChild(myarticle);
+}
+}
 }
