@@ -136,6 +136,7 @@ img {
 article {
     background-color: lightgreen;
     padding: 20px;
+    border-radius: 6px;
 }
 
 article img {
@@ -326,4 +327,37 @@ article#towns div:nth-of-type(2) {
 
 article#towns div:nth-of-type(3) {
 	order:2;
+}
+
+aside {
+    padding: .5rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: auto;
+    padding:.5rem;
+    text-align: center;
+}
+aside img {
+    max-width: 300px;
+    display: inline-block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+aside ul {
+    list-style-type: none;
+    margin-top:0px;
+}
+
+aside li {
+    list-style-type: none;
+    padding: 10px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+aside h2 {
+    margin-bottom: 0;
 }

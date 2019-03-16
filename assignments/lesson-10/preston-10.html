@@ -42,10 +42,10 @@
                     </picture>
                     <section class="stats">
                         <h3>Weather Summary</h3>
-                        <p>Currently: <span id="value1">Sunny</span></p>
-                        <p>Temperature: <span id='currentTemp'>67</span>&deg;F</p>
-                        <p>Humidity: <span id="humidity"></span>47%</p>
-                        <p>Wind Speed: <span id='windSpeed'>15</span>mph</p>
+                        <p>Currently: <span id="value1"></span></p>
+                        <p>Temperature: <span id="currentTemp"></span>&deg;F</p>
+                        <p>Humidity: <span id="humidity"></span>%</p>
+                        <p>Wind Speed: <span id="windSpeed"></span>mph</p>
                         <p>Wind Chill: <span id="windChill"></span>&deg;F</p>
                     </section>
                 </div>
@@ -53,25 +53,25 @@
          <div class="daybyday">
              <table id="table1">
                  <tr>
-                     <th>Wed</th>
-                     <th>Thur</th>
-                     <th>Fri</th>
-                     <th>Sat</th>
-                     <th>Sun</th>
+                     <th id="day1"></th>
+                     <th id="day2"></th>
+                     <th id="day3"></th>
+                     <th id="day4"></th>
+                     <th id="day5"></th>
                  </tr>
                  <tr>
-                     <td> <img src="images/sun.png" alt="A picture of the sun"></td>
-                     <td> <img src="images/sun.png" alt="A picture of the sun"></td>
-                     <td> <img src="images/sun.png" alt="A picture of the sun"></td>
-                     <td> <img src="images/sun.png" alt="A picture of the sun"></td>
-                     <td> <img src="images/sun.png" alt="A picture of the sun"></td>
+                     <td> <img src="#" id="weatherPic1" alt="Weather picture"></td>
+                     <td> <img src="#" id="weatherPic2" alt="Weather picture"></td>
+                     <td> <img src="#" id="weatherPic3" alt="Weather picture"></td>
+                     <td> <img src="#" id="weatherPic4" alt="Weather picture"></td>
+                     <td> <img src="#" id="weatherPic5" alt="Weather picture"></td>
                  </tr>
                  <tr>
-                     <td>65 &#176;</td>
-                     <td>63 &#176;</td>
-                     <td>60 &#176;</td>
-                     <td>54 &#176;</td>
-                     <td>65 &#176;</td>
+                     <td><span id="temp1"></span>&#176;</td>
+                     <td><span id="temp2"></span>&#176;</td>
+                     <td><span id="temp3"></span>&#176;</td>
+                     <td><span id="temp4"></span>&#176;</td>
+                     <td><span id="temp5"></span>&#176;</td>
                  </tr>
              </table>
          </div>
@@ -82,6 +82,9 @@
             <p>Have you ever wondered what it is like to live in Idaho? Well I am here to tell you that it is the greatest. I recently sat down and reflected on the time I have lived here in Idaho, and I have to say the years I have lived here have possibly been the best years of my life. Idaho is a wonderful place for all sorts of people. For those who love hiking there are plenty of hiking trails everywhere. Those who love rafting or kayaking there are plenty of places for that as well. You name it Idaho has it, so don't be afraid to try it out. 
             </p> 
         </article>
+        <aside class="currentEvents">
+            <h2>Upcoming Events In Preston</h2><br>
+        </aside>
         <section id= "contactinfo">
             <h3>Contact Us</h3>
             <img src="images/preston_map.png" alt="map of preston">
@@ -96,9 +99,11 @@
         </section>
         <footer>
             <p>&copy;2019 All Rights Reserved| Weather Fun Times| <span id="currentdate"></span><br></p>
+            <p>Weather Information Provided by OpenWeatherMap</p>
         </footer>
         <script src="javascript/hamburger.js"></script>
         <script src="javascript/currentdate.js"></script>
+        <script src="javascript/prestoninfo.js"></script>
         <script src="javascript/windchill.js"></script>
     </body>
 
