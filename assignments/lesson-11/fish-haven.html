@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name= "viewpoint" content="width=device-width,initial-scale=1, maximum-scale=1">
+        <title>Fish Haven Idaho</title>
+        <meta name="description" content="The weather for Fish Haven Idaho">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small-11.css">
+        <link rel="stylesheet" href= "css/medium.css">
+        <link rel="stylesheet" href="css/large-11.css">
+    </head>
+    <body>
+        <header>
+                <section class="headings">
+                        <img src="images/weather-site-logo1.png" alt="A picture of the sun and clouds">
+                        <h1>Weather Fun Times</h1>  
+                </section>
+            <h2>We tell you the weather, so you can enjoy your fun times</h2> 
+        </header>
+
+         <nav>
+             <button onclick="toggleMenu()">&#9776;</button>
+             <ul id="direction" class="hide">
+                <li><a href="home.html">|Home|     </a></li>
+                <li><a href="preston-11.html">     |Preston|</a></li>
+                <li><a href="soda-springs.html">          |Soda-Springs|     </a></li>
+                <li class="active"><a href="#">     |Fish-Haven|     </a></li>
+                <li><a href="stormcenter.html">     |Storm-Center|     </a></li>
+                <li><a href="gallery-11.html">     |Gallery|</a></li>
+             </ul>
+         </nav>
+         <main>
+            <h2>Fish Haven</h2>
+                <div class="herodiv">
+                    <picture class="herophoto">
+                            <img src="images/fish-haven-head-original.jpg" alt= "A nice lake picture" sizes="85vw"
+                                srcset="images/fish-haven-head-very-small.jpg 400w,
+                                        images/fish-haven-head-small.jpg 800w,
+                                        images/fish-haven-head-large.jpg 1200w
+                                        "
+                                 >
+                    </picture>
+                    <section class="stats">
+                        <h3>Weather Summary</h3>
+                        <p>Currently: <span id="value1"></span></p>
+                        <p>Temperature: <span id="currentTemp"></span>&deg;F</p>
+                        <p>Humidity: <span id="humidity"></span>%</p>
+                        <p>Wind Speed: <span id="windSpeed"></span>mph</p>
+                        <p>Wind Chill: <span id="windChill"></span>&deg;F</p>
+                        <p>Wind Direction: <span id="dir"></span></p>
+                    </section>
+                </div>
+         </main>
+         <div class="daybyday">
+             <table id="table1">
+                 <tr>
+                     <th id="day1"></th>
+                     <th id="day2"></th>
+                     <th id="day3"></th>
+                     <th id="day4"></th>
+                     <th id="day5"></th>
+                 </tr>
+                 <tr>
+                     <td> <img src="#" id="weatherPic1" alt="Weather picture"></td>
+                     <td> <img src="#" id="weatherPic2" alt="Weather picture"></td>
+                     <td> <img src="#" id="weatherPic3" alt="Weather picture"></td>
+                     <td> <img src="#" id="weatherPic4" alt="Weather picture"></td>
+                     <td> <img src="#" id="weatherPic5" alt="Weather picture"></td>
+                 </tr>
+                 <tr>
+                     <td><span id="temp1"></span>&#176;</td>
+                     <td><span id="temp2"></span>&#176;</td>
+                     <td><span id="temp3"></span>&#176;</td>
+                     <td><span id="temp4"></span>&#176;</td>
+                     <td><span id="temp5"></span>&#176;</td>
+                 </tr>
+             </table>
+         </div>
+        <article>
+            <img src="images/fish-haven-article1.jpg" alt="fun picture for article">
+            <h2>Great Fish</h2>
+            <h4>by Chase Stremp</h4>
+            <p>Do you enjoy fishing? I know a great fishing spot for you and your family. Come down here to Fish Haven
+                and try fishing at Bear Lake. It is a wonderful fishing location. I know it is my favorite, and many others agree,
+                so if you need a quick fishing trip come down and give it a try.
+            </p> 
+        </article>
+        <aside class="currentEvents">
+            <h2>Upcoming Events Here In Fish Haven</h2><br>
+        </aside>
+        <section id= "contactinfo">
+            <h3>Contact Us</h3>
+            <img src="images/fish-haven-map.jpg" alt="map of soda springs">
+            <address>
+                <P>Weather Fun Times</P>
+                <p>77 N fake dr, Preston, ID 83263</p>
+            </address>
+            <address>
+                <P>(123)-456-7890</P>
+                <p>weatherfun@fake.com</p>
+            </address>
+        </section>
+        <footer>
+            <p>&copy;2019 All Rights Reserved| Weather Fun Times| <span id="currentdate"></span><br></p>
+            <p>Weather Information Provided by OpenWeatherMap</p>
+            <p><a href="https://www.byui.edu/online">BYU-Idaho Online Learning</a></p>
+        </footer>
+        <script src="javascript/hamburger.js"></script>
+        <script src="javascript/currentdate.js"></script>
+        <script src="javascript/fish-haven.js"></script>
+        <script src="javascript/windchill.js"></script>
+    </body>
+
+</html>
