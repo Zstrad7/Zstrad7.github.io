@@ -1,0 +1,92 @@
+{
+  "temples" : [
+  {
+    "name": "Boise",
+    "address": "1211 S Cole Rd Boise ID 83709",
+    "telephone": "(208)-322-4422",
+    "email": "BOISE-OFF@ldschurch.org",
+    "service": [
+	"No clothing rental avilable",
+	"No cafeteria available",
+	"No patron housing available",
+	"Distribution center nearby"
+    ]
+    ,"history":" The Boise Idaho Temple was dedicated May 25, 1984 by Gordon B. Hinckley.",
+    "baptism":"5:00 AM to 9:30 PM",
+    "initiatory": "5:00 AM to 9:30 PM",
+    "session":"5:30 AM to 8:00 PM",
+    "sealing": "5:30 AM to 9:00 PM",
+    "closure" : [
+      "Saturday, 6 April 2019",
+      "Monday, 6 May 2019-Monday, 20 May 2019",
+      "Thursday 4 July 2019"
+    ]
+  },
+   {
+    "name": "Dallas",
+    "address": "6363 Willow Ln Dallas TX 75230",
+    "telephone": "(972)-991-1273",
+    "email": "DALLA-OFF@ldschurch.org",
+    "service": [
+	"Clothing rental avilable",
+	"Cafeteria available",
+	"No patron housing available",
+	"Distribution center nearby"
+    ]
+    ,"history":" The Dallas Texas Temple was dedicated on October 19, 1984 by Gordon B. Hinckley.",
+    "baptism":"7:00 AM to 10:00 PM",
+    "initiatory": "7:00 AM to 9:30 PM",
+    "session":"7:00 AM to 8:00 PM",
+    "sealing": "7:00 AM to 9:30 PM",
+    "closure" : [
+      "Saturday, 6 April 2019",
+      "Monday, 22 April 2019-Monday, 6 May 2019",
+      "Thursday 4 July 2019"
+    ]
+  },
+   {
+    "name": "Rexburg",
+    "address": "750 S 2nd E Rexburg ID 83440",
+    "telephone": "(208)-656-0880",
+    "email": "REXBU-OFF@ldschurch.org",
+    "service": [
+	"Clothing rental avilable",
+	"No cafeteria available",
+	"No patron housing available",
+	"Distribution center nearby"
+    ]
+    ,"history":" The Rexburg Idaho Temple was dedicated on February 10, 2008 by Thomas S. Monson.",
+    "baptism":"6:00 AM to 8:00 PM",
+    "initiatory": "6:00 AM to 8:00 PM",
+    "session":"6:00 AM to 7:30 PM",
+    "sealing": "7:00 AM to 8:00 PM",
+    "closure" : [
+      "Saturday, 6 April 2019",
+      "Monday, 15 April 2019-Monday, 29 April 2019",
+      "Thursday 4 July 2019"
+    ]
+  },
+   {
+    "name": "Gilbert",
+    "address": "3301 S Greenfield Rd Gilbert AZ 85297",
+    "telephone": "(480)-822-5000",
+    "email": "GILBE-OFF@ldschurch.org",
+    "service": [
+	"Clothing rental avilable",
+	"No cafeteria available",
+	"No patron housing available",
+	"Distribution center nearby"
+    ]
+    ,"history":" The Gilbert Arizona Temple was dedicated on March 2, 2014 by Thomas S. Monson & Henry B. Eyring.",
+    "baptism":"5:30 AM to 8:30 PM",
+    "initiatory": "6:30 AM to 8:30 PM",
+    "session":"5:30 AM to 7:45 PM",
+    "sealing": "For Sealing information please call the temple",
+    "closure" : [
+      "Saturday, 6 April 2019",
+      "Thursday 4 July 2019",
+      "Monday, 30 September 2019-Monday, 14 October 2019"
+    ]
+  }
+ ]
+}
