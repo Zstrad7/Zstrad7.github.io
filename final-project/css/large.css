@@ -1,0 +1,44 @@
+@media only screen and (min-width: 950px){
+     /*Home Photo*/
+     div.homephoto {
+        grid-template-columns: repeat(3, 1fr);
+        max-width:2300px;
+        margin: auto;
+        box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+    }
+    .resbutton p {
+        width:25%;
+    }
+
+    
+    .rf {
+        max-width: 800px;
+        margin: auto;
+    }
+    /*Article*/
+    article{
+    max-width: 800px;
+    margin:auto;
+    padding-bottom:150px;
+    margin-bottom: 1.5rem;
+    }
+    article img {
+        float:right;
+        margin:10px;
+    }
+    /*Contact Info*/
+    section#contactinfo {
+        max-width: 800px;
+        margin: auto;
+        position: relative;
+        text-align: left;
+        padding: 50px;
+    }
+
+    section#contactinfo img {
+        position: absolute;
+        top: 20px;
+        left: 355px;
+    }
+    
+}

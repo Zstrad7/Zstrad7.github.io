@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name= "viewpoint" content="width=device-width,initial-scale=1, maximum-scale=1">
+        <title>Temples-Gilbert-Temple Inn</title>
+        <meta name="description" content="Gilbert temple page for the Temple Inn & Suites">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href= "css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body>
+        <header>
+            <section class="headings">
+                    <img src="images/temple-inn-logo.png" alt="The Temple Inn & Suits Logo">
+                     <h1>Temple Inn & Suites</h1>  
+            </section> 
+         </header>
+         <nav>
+             <button onclick="toggleMenu()">&#9776;</button>
+             <ul id="direction" class="hide">
+                <li><a href="index.html">|Home|     </a></li>
+                <li class="active"><a href="temple.html">     |Temples|</a></li>
+                <li><a href="reservation.html">          |Reservations|     </a></li>
+                <li><a href="service.html">     |Services|     </a></li>
+                <li><a href="contact.html">     |Contact Us|     </a></li>
+             </ul>
+         </nav>
+         <main>
+             <h2>Gilbert Arizona Temple</h2>
+             <article id="temples">
+                <img src="images/gilbert-arizona-temple.jpg" alt="Picture of the Gilbert Arizona Temple">
+             </article>
+             <div class="rf">
+                    <section class="stats">
+                        <h3>Weather Summary</h3>
+                        <p>Currently: <span id="value1"></span></p>
+                        <p>Temperature: <span id="currentTemp"></span>&deg;F</p>
+                        <p>Humidity: <span id="humidity"></span>%</p>
+                        <p>Wind Speed: <span id="windSpeed"></span>mph</p>
+                        <p>Wind Chill: <span id="windChill"></span>&deg;F</p>
+                        <p>Wind Direction: <span id="dir"></span></p>
+                    </section>
+         </main>
+         <footer>
+            <p>&copy;2019 All Rights Reserved| Temple Inn & Suits| <span id="currentdate"></span><br></p>
+            <p>Weather Information Provided by OpenWeatherMap</p>
+            <p><a href="https://www.byui.edu/online">BYU-Idaho Online Learning</a></p>
+            <p><a href="references.html">Refrences</a></p>
+       </footer>
+       <script src="js/hamburger.js"></script>
+       <script src="js/currentdate.js"></script>
+       <script src="js/gilbertinfo.js"></script>
+    </body>
+</html>

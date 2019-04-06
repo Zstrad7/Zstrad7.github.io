@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name= "viewpoint" content="width=device-width,initial-scale=1, maximum-scale=1">
+        <title>Services-Temple Inn</title>
+        <meta name="description" content="Services page for the Temple Inn & Suites">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href= "css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body>
+        <header>
+            <section class="headings">
+                    <img src="images/temple-inn-logo.png" alt="The Temple Inn & Suits Logo">
+                     <h1>Temple Inn & Suites</h1>  
+            </section> 
+         </header>
+         <nav>
+             <button onclick="toggleMenu()">&#9776;</button>
+             <ul id="direction" class="hide">
+                <li><a href="index.html">|Home|     </a></li>
+                <li><a href="temple.html">     |Temples|</a></li>
+                <li><a href="reservation.html">          |Reservations|     </a></li>
+                <li class="active"><a href="service.html">     |Services|     </a></li>
+                <li><a href="contact.html">     |Contact Us|     </a></li>
+             </ul>
+         </nav>
+         <main>
+             <h2>Information about Suites</h2>
+             <article id="king">
+                 <h3>King Suites</h3>
+                 <img src="images/king-suite.jpg" alt="Picture of a Kind Suite">
+                 <p>Our king suites offer a huge king bed, wonderful chairs to sit and study in, and a smart tv to watch when you feel so inclined</p>
+                 <div class="resbutton">
+                        <p><a href="contact.html"> Please contact us for more detail</a></p>
+                    </div>
+             </article>
+             <article id="queen">
+                 <h3>Queen Suites</h3>
+                 <img src="images/queen-suite.jpg" alt="Picture of a Queen Suite">
+                 <p>Our queen suites offer a slightly smaller bed for those who don't need the hug kind, and they have all the same amenities as the king suites</p>
+                 <div class="resbutton">
+                        <p><a href="contact.html"> Please contact us for more detail</a></p>
+                    </div>
+             </article>
+         </main>
+         <footer>
+            <p>&copy;2019 All Rights Reserved| Temple Inn & Suits| <span id="currentdate"></span><br></p>
+            <p>Weather Information Provided by OpenWeatherMap</p>
+            <p><a href="https://www.byui.edu/online">BYU-Idaho Online Learning</a></p>
+            <p><a href="references.html">Refrences</a></p>
+       </footer>
+       <script src="js/hamburger.js"></script>
+       <script src="js/currentdate.js"></script>
+    </body>
+</html>

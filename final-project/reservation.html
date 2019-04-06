@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name= "viewpoint" content="width=device-width,initial-scale=1, maximum-scale=1">
+        <title>Reservations-Temple Inn</title>
+        <meta name="description" content="Reservation page for the Temple Inn & Suites">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href= "css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body>
+        <header>
+            <section class="headings">
+                    <img src="images/temple-inn-logo.png" alt="The Temple Inn & Suits Logo">
+                     <h1>Temple Inn & Suites</h1>  
+            </section> 
+         </header>
+         <nav>
+             <button onclick="toggleMenu()">&#9776;</button>
+             <ul id="direction" class="hide">
+                <li><a href="index.html">|Home|     </a></li>
+                <li><a href="temple.html">     |Temples|</a></li>
+                <li class="active"><a href="reservation.html">          |Reservations|     </a></li>
+                <li><a href="service.html">     |Services|     </a></li>
+                <li><a href="contact.html">     |Contact Us|     </a></li>
+             </ul>
+         </nav>
+         <main>
+             <div class="rf">
+            <h2>Room Reservation</h2>
+            <div class="resform">
+                <form method="get" action="thanks.html">
+                   <section id="personal-info">
+                       <h3>Personal Information</h3>
+                       <div id="sub1">
+                           <label>Full Name:<br><input type="text" name="fullname" placeholder="Full Name Here" minlength="4" maxlength="25" size="20" required></label><br>
+                           <label>Email:<br><input type="email" name="enail" placeholder="email@here.com" required></label><br>
+                           <label>Phone Number:<br><input type="tel" name="phone" required></label><br>
+                           <label>Home State or Country:<br><input type="text" name="home" required></label>
+                       </div>
+                   </section>
+                   <section id="res">
+                        <h3>Reservation Information</h3>
+                       <div id="sub2">
+                           <label>Reservation Date:<br><input type="date" name="date" required></label><br>
+                           <div id="reservationlist">
+                           <label >Room Type:<br> </label>
+                           <input name="roomtype" list="roomlist" required>
+
+                            <datalist id="roomlist">
+                                   <option value= "Two Doubles">
+                                   <option value= "One Queen">
+                                   <option value= "One King">
+                                   <option value= "Queen Suite">
+                                   <option value= "King Suite">
+                            </datalist>
+                           </div>
+                           <br>
+                           <label for="rating">Number of Rooms:<br>
+                           <input type="text" name="roomnumber" placeholder="1" minlength="1"required></label>
+                           <label> Location:<br> <select name="location" required>
+                               <option value="Choose" disabled selected>Choose Location</option>
+                                   <option value="Boise">Boise Idaho</option>
+                                   <option value="Rexburg">Rexburg Idaho</option>
+                                   <option value="Dallas">Dallas Texas</option>
+                                   <option value="Gilbert">Gilbert Arizona</option>
+                               </select>
+                           </label><br>
+                       </div>
+                   </section>
+                   <section id="moreinfo">
+                       <h3>Special Accommodations/ Comments</h3>
+                       <label> Special Accommodations/ Comments:<br>
+                           <textarea name="additionalinfo"></textarea>
+                       </label>
+                   </section>
+                   <br>
+                   <input type="submit" value="Submit" class="submitButton">
+                </form>
+            </div>
+            </div>
+        </main>
+         <footer>
+            <p>&copy;2019 All Rights Reserved| Temple Inn & Suits| <span id="currentdate"></span><br></p>
+            <p>Weather Information Provided by OpenWeatherMap</p>
+            <p><a href="https://www.byui.edu/online">BYU-Idaho Online Learning</a></p>
+            <p><a href="references.html">Refrences</a></p>
+       </footer>
+       <script src="js/hamburger.js"></script>
+       <script src="js/currentdate.js"></script>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name= "viewpoint" content="width=device-width,initial-scale=1, maximum-scale=1">
+        <title>Home-Temple Inn</title>
+        <meta name="description" content="Home page for the Temple Inn & Suites">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href= "css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body>
+        <header>
+            <section class="headings">
+                    <img src="images/temple-inn-logo.png" alt="The Temple Inn & Suits Logo">
+                     <h1>Temple Inn & Suites</h1>  
+            </section> 
+         </header>
+         <nav>
+             <button onclick="toggleMenu()">&#9776;</button>
+             <ul id="direction" class="hide">
+                <li class="active"><a href="index.html">|Home|     </a></li>
+                <li><a href="temple.html">     |Temples|</a></li>
+                <li><a href="reservation.html">          |Reservations|     </a></li>
+                <li><a href="service.html">     |Services|     </a></li>
+                <li><a href="contact.html">     |Contact Us|     </a></li>
+             </ul>
+         </nav>
+         <main>
+             <h2>Home</h2>
+             <div class="homephoto">
+                 <figure>
+                     <img src="images/boise-temple.jpg" alt="Boise Idaho Temple">
+                     <figcaption>The Boise Temple</figcaption>
+                 </figure>
+                 <figure>
+                    <img src="images/dallas-temple.jpg" alt="Dallas Texas Temple">
+                    <figcaption>The Dallas Temple</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/gilbert-temple.jpg" alt="Gilbert Arizona Temple">
+                    <figcaption>The Gilbert Temple</figcaption>
+                </figure>
+             </div>
+             <div class="resbutton">
+                 <p><a href="reservation.html">Reserve A Room Now</a></p>
+             </div>
+         </main>
+         <article>
+             <img src="images/meridian-temple.jpg" alt="picture of the Meridian Idaho Temple">
+            <h2>The Meridian Idaho Temple</h2>
+            <p>This beautiful temple was announced on April 2, 2011, and it's
+                groundbreaking was on August 23, 2014. It was then dedicated November
+                19, 2017 by Dieter F. Uchtdorf. 
+            </p>
+         </article>
+       <footer>
+            <p>&copy;2019 All Rights Reserved| Temple Inn & Suits| <span id="currentdate"></span><br></p>
+            <p>Weather Information Provided by OpenWeatherMap</p>
+            <p><a href="https://www.byui.edu/online">BYU-Idaho Online Learning</a></p>
+            <p><a href="references.html">Refrences</a></p>
+       </footer>
+       <script src="js/hamburger.js"></script>
+       <script src="js/currentdate.js"></script>
+    </body>
+</html>

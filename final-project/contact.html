@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name= "viewpoint" content="width=device-width,initial-scale=1, maximum-scale=1">
+        <title>Contact-Temple Inn</title>
+        <meta name="description" content="Contact page for the Temple Inn & Suites">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href= "css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body>
+        <header>
+            <section class="headings">
+                    <img src="images/temple-inn-logo.png" alt="The Temple Inn & Suits Logo">
+                     <h1>Temple Inn & Suites</h1>  
+            </section> 
+         </header>
+         <nav>
+             <button onclick="toggleMenu()">&#9776;</button>
+             <ul id="direction" class="hide">
+                <li><a href="index.html">|Home|     </a></li>
+                <li><a href="temple.html">     |Temples|</a></li>
+                <li><a href="reservation.html">          |Reservations|     </a></li>
+                <li><a href="service.html">     |Services|     </a></li>
+                <li class="active"><a href="contact.html">     |Contact Us|     </a></li>
+             </ul>
+         </nav>
+         <main>
+             <h2>Contact Us</h2>
+             <div class="rf">
+             <div id="contactform">
+                 <form method="get" action="thank2.html">
+                    <label><span>First Name:</span><input name="name" type="text" value="" placeholder="First Name Here" minlength="4" required></label>
+                    <br>
+                    <label><span>Last Name:</span><input name="name" type="text" value="" placeholder="Last Name Here" minlength="4" required></label>
+                    <br>
+                    <label>Email:<br><input type="email" name="enail" placeholder="email@here.com" required></label>
+                    <br>
+                    <label>Phone Number:(optional)<br><input type="tel" name="phone" ></label><br>
+                    <br>
+                    <label> Message:<br>
+                        <textarea name="message"></textarea>
+                    </label>
+                    <input type="submit" value="Submit" class="submitbutton">
+                </form>
+             </div>
+            </div>
+             <section id= "contactinfo">
+                <img src="images/hq-map.jpg" alt="Map to Temple Inn HQ">
+                <address>
+                    <P>Temple Inn & Suites Headquarters</P>
+                    <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+                </address>
+                <address>
+                    <P>(246)-456-7890</P>
+                </address>
+            </section>
+         </main>
+
+         <footer>
+            <p>&copy;2019 All Rights Reserved| Temple Inn & Suits| <span id="currentdate"></span><br></p>
+            <p>Weather Information Provided by OpenWeatherMap</p>
+            <p><a href="https://www.byui.edu/online">BYU-Idaho Online Learning</a></p>
+            <p><a href="references.html">Refrences</a></p>
+       </footer>
+       <script src="js/hamburger.js"></script>
+       <script src="js/currentdate.js"></script>
+       <script src="js/rangeslider.js"></script>
+    </body>
+</html>
